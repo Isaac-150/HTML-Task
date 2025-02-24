@@ -1,58 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Document</title>
+    <meta charset="UTF-8">
+
+    <title>My Resume</title>
+
+
+
 </head>
-<body>
-    <header> <h1>Resume</h1>
-    </header>
-    <nav>
+<body style="background-color: darkgray;">
     
-        <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Quliication Details</li>
-        <li>Certification</li>
-        <li>Skill</li>
-        <li>Contact Details</li>
+ <!--Biography--> 
+ 
+ <center> <img class="img_deg" src="isaac.jpeg" width="200" height="200"></center>
+ <hr style="color: rgb(115, 4, 243);">
+<h1>Isaac Samuel S</h1>
+<h2><ul>
+
+    <li> Born:15/3/2007<br></li>
+    <li> Age:17<br></li>
+    <li> Address:2/262a PACHAPALAYAM ss kulam via<br></li>
+    <li>Contact: <a href="">9655261709 </a><br></li>
+
+    <li>Email: isaaacsamuel71015@gmail.com<br></li>
+</h2></ul>
+<hr style="color: rgb(115, 4, 243);">
+  <!--Qualification of the user-->
+  <section>
+    <header><strong>QUALIFICATION</strong></header>
+
+    <ul>
+       <li> SSLC in <u> <a href="https://maps.app.goo.gl/6qJofDdmgTmp5GhL6">"Vimal Jyothi"></a></u></li>
+       <li> Higher studies in <u><a href="https://maps.app.goo.gl/shCBbgDhjYi1Ffvw7">"Rj Matriculaton Higher Sec School"</a></u></li>
+       <li> UG in <u><a href="https://maps.app.goo.gl/hDJAcyZPLJ2iJhgc8">"KG college of Arts and Science"</a></u>(Compuetr technology)</li>
     </ul>
-    </nav>
-    <!--home content-->
-    <section>
-        <center>
-        <figure>
-
-            <img src="https://t3.ftcdn.net/jpg/05/99/44/02/360_F_599440297_G77qvOiQWPNrctJZYvVyVkUQS1pQEBU0.jpg" alt="no image" height="" width="">
-        </figure>
-        <figcaption> picture 1</figcaption>
-        <h1>Isaac Samuel</h1>
-        <h2>Full Stack Developer</h2>
-    </center>
-
-    </section>
-    <!--Skill content -->
-    <section>
-        <details>
-            <summary>Skills</summary>
-            <li>css</li>
-            <li>html</li>
-        </details>
-    </section>
-    <section>
-        <h1>Project Details</h1>
-        <dl>
-            <dt>Online Food Order</dt>
-            <dd>-Frontend -HTML,CSS,Bootstrap,React</dd>
-            <dd>-Backend-MonogoDB</dd>
-
-           
-        </dl>
-    </section>
-    <footer>
-        <h1>Contact Details</h1>
-        <p>Location : Coimbatore</p>
-        <p>Email : isaacsamuel71015@gmail.com</p>
-    </footer>
+    <hr>    
+</section> 
+<!--skills-->
+<section>
+    <header><strong>SKILLS</strong></header>
+    <ul><bold>
+        <li>HTML</li>
+        <li>JAVA</li>
+        <li>PYTHON</li>
+    </bold>
+    </ul>
+</section>
     
     
 </body>
